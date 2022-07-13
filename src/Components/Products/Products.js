@@ -11,9 +11,12 @@ const Products = () => {
     console.log(products);
     return (
         <div>
+            <h1 className='text-center text-secondary'>Products</h1>
+            <div className='row'>
            {
             products.map(product =><Product key={product.id} product={product}></Product>)
            }
+        </div>
         </div>
     );
 };
