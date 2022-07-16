@@ -1,0 +1,101 @@
+.cardSection{
+    background-color: #eee;
+}
+.imgSection img{
+    width: 400px;
+}
+
+/*
+Size radio button
+===================
+*/
+label.radio{
+    cursor: pointer
+    }
+   label.radio input{
+    position: absolute;
+    top: 0;left: 0;
+    visibility: hidden;
+    pointer-events: none
+    }
+   label.radio span{
+    padding: 2px 9px;
+    border: 2px solid #ff0000;
+    display: inline-block;
+    color: #ff0000;
+    border-radius: 3px;
+    text-transform: uppercase}
+   label.radio input:checked+span{
+    border-color: #ff0000;
+    background-color: #ff0000;
+    color: #fff
+    }
+   .btn-danger{
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important}
+    .btn-danger:hover{
+        background-color: #da0606 !important;
+        border-color: #da0606 !important
+    }
+
+/*
+Button Style
+===============
+*/
+.btn2 {
+    border: none;
+    display: block;
+    position: relative;
+    padding: 0.7em 2.4em;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: royalblue;
+    z-index: 1;
+    font-family: inherit;
+    font-weight: 500;
+   }
+   
+   .btn2 span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    border: 4px solid royalblue;
+   }
+   
+   .btn2 span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 500%;
+    background: var(--lightgray);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    transition: all 0.3s;
+   }
+   
+   .btn2:hover span::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    background: royalblue;
+   }
+   
+   .btn2:hover {
+    color: white;
+   }
+   
+   .btn2:active span::before {
+    background: #2751cd;
+   }
+
+
+
+  
