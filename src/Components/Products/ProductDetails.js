@@ -23,10 +23,11 @@ const ProductDetails = () => {
                     <h4 className='fw-bolder'>{title}</h4>
                     <p>{description}</p>
                     <p>Category: {category}</p>
-                    <h3 className='mt-5 text-danger'>Price : $ {price}</h3>
+                    <h3 className='mt-3 text-danger'>Price : $ {price}</h3>
                     <p>Rating : {product.rating?.rate}</p>
+                    <p>Reviews : {product.rating?.count}</p>
                     
-                    <div class="sizes mt-5">
+                    <div class="sizes mt-3">
                                 <h6 class="text-uppercase">Size</h6> 
                                 <label class="radio"> <input type="radio" name="size" value="S" checked /> <span>S</span> </label> <label class="radio"> <input type="radio" name="size" value="M" /> <span>M</span> </label> <label class="radio"> <input type="radio" name="size" value="L" /> <span>L</span> </label> <label class="radio"> <input type="radio" name="size" value="XL" /> <span>XL</span> </label> <label class="radio"> <input type="radio" name="size" value="XXL" /> <span>XXL</span> </label>
                             </div>
