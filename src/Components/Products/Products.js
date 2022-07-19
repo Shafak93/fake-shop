@@ -13,7 +13,7 @@ const Products = () => {
     console.log(products);
     return (
        
-            <div>
+            <div className='mt-5'>
             <h1 className='text-center text-secondary'>Products</h1>
             <div className='row'>
            {

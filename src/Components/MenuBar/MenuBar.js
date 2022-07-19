@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const MenuBar = () => {
     return (
-        <div>
+        <div className='mb-5'>
            <Navbar bg="light" expand="lg"  fixed="top">
       <Container fluid>
         <Navbar.Brand href="#">Fake Shop</Navbar.Brand>

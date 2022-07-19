@@ -2,7 +2,7 @@
 Button
 */
 .btn1 {
-    padding: 0.8em 1.8em;
+    padding: 0.5em 1em;
     border: 2px solid #17C3B2;
     position: relative;
     overflow: hidden;
@@ -48,13 +48,13 @@ Button Animation
 }
 .cardBox .btn1{
    position: absolute;
-   bottom: -15px;
-   left: 30%;
+   bottom: -12px;
+   left: 35%;
    opacity: 0;
    transition:  0.5s, opacity 0.5s;
 }
 
 .cardBox:hover .btn1{
-   bottom: 30px;
+   bottom: 5px;
     opacity: 1;
 }
